@@ -1,27 +1,12 @@
-#include <iostream>
-
+#include<iostream>
+#include<math.h>
 using namespace std;
 
-int main()
-{
-    int a,b,c;
-    cout<<"enter two numbers";
-    cin>>a>>b;
-
-//for sum
-    c=a+b;
-    cout<<c<<endl;
-
-//for sub
-    c=a-b;
-    cout<<c<<endl;
-
-//for multiply
-    c=a*b;
-    cout<<c<<endl;
-
-//for dividation
-    //c=a/b;
-    //cout<<c;
-return 0;
+int main(){
+    float r,area;
+    cout<<"enter radius :";
+    cin>>r;
+    area=(float)3.1425 * r * r;
+    cout<<"Area is "<<area<<endl;
+    return 0;
 }
