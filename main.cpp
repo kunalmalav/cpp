@@ -3,16 +3,12 @@
 using namespace std;
 
 int main(){
-    int a,b,c;
-    float root1,root2;
-
-    cout<<"Enter three values :";
-    cin>>a>>b>>c;
-
-    root1=(-b+sqrt(b*b-4*a*c))/(2*a);
-    root2=(-b-sqrt(b*b-4*a*c))/(2*a);
-
-    cout<<root1<<" "<<root2<<endl;
+    int u,v,a;
+    float speed;
+    cout<<"Enter three numbers :";
+    cin>>u>>v>>a;
+    speed=(v*v-u*u)/(2*a);
+    cout<<"speed is:"<<" "<<speed<<endl;
     return 0;
 }
 
