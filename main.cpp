@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 
-enum day{mon,tue,wed,thu,fri,sat,sun};
+typedef int marks;
 
-int main()
-{
-    day m,t,w,th,f,s,su;
-    m=mon;
-    t=tue;
-    w=wed;
-    th=thu;
-    f=fri;
-    s=sat;
-    su=sun;
+int main(){
 
-    cout<<m<<t<<w<<th<<f<<s<<su<<endl;
+    marks ;
+
+    m1=50;
+    m2=90;
+
+    cout<<<<endl;
+    cout<<<<endl;
+
+    return 0;
+
+
 }
+
+
+
