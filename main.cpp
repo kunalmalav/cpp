@@ -4,17 +4,16 @@ using namespace std;
 
 int main()
 {
-//write conditional statement here to print "positive" or "negative"
-    int n;
-    cout<<"enter a integer";
-    cin>>n;
-    if(n*-1>0)
+    int x,y;
+    cout<<"type two numbers";
+    cin>>x>>y;
+    if(x>y)
     {
-        cout<<"negative";
+        cout<<x;
     }
     else
     {
-        cout<<"positive";
+        cout<<y;
     }
     return 0;
 }
