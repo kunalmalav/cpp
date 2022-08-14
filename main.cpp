@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
-    int x,y;
-    cout<<"type two numbers";
-    cin>>x>>y;
-    if(x>y)
+    int n;
+    cout<<"Type a number :";
+    cin>>n;
+    if(n&1)
+    //write condition here to check "odd" or "even"
     {
-        cout<<x;
+    cout<<"odd";
     }
     else
     {
-        cout<<y;
+        cout<<"even";
     }
+
     return 0;
 }
