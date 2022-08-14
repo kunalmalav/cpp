@@ -1,25 +1,20 @@
-#include <iostream>
+#include<iostream>
+
 using namespace std;
 
 int main()
 {
- int x;
- cout<<"Enter Your Roll No.:";
- cin>>x;
-    if(x==34)
- {
-     cout<<"You Are Right";
- }
+//write conditional statement here to print "positive" or "negative"
+    int n;
+    cout<<"enter a integer";
+    cin>>n;
+    if(n*-1>0)
+    {
+        cout<<"negative";
+    }
     else
- {
-     cout<<"Its Not Your Roll No.";
- }
-
-
+    {
+        cout<<"positive";
+    }
     return 0;
-
-
 }
-
-
-
