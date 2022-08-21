@@ -4,14 +4,16 @@ using namespace std;
 
 int main()
 {
-    int hour;
-    cout<<"enter hour :";
-    cin>>hour;
-    if(hour>=9 && hour<=18)
-    cout<<"Working hour";
+    int age;
+    cout<<"enter age :";
+    cin>>age;
+    if(age>=12 && age<=50)
+    {
+    cout<<"You are young";
+    }
     else
     {
-        cout<<"leisure";
+        cout<<"You are not young";
     }
 
     return 0;
