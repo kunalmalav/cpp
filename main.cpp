@@ -4,15 +4,14 @@ using namespace std;
 
 int main()
 {
-    int a,b,c;
-    cout<<"enter two numbers :";
-    cin>>a>>b;
-    if(b==0)
-    cout<<"Division by zero";
+    int hour;
+    cout<<"enter hour :";
+    cin>>hour;
+    if(hour>=9 && hour<=18)
+    cout<<"Working hour";
     else
     {
-        c=a/b;
-        cout<<c<<endl;;
+        cout<<"leisure";
     }
 
     return 0;
