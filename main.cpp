@@ -4,17 +4,15 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cout<<"Type a number :";
-    cin>>n;
-    if(n&1)
-    //write condition here to check "odd" or "even"
-    {
-    cout<<"odd";
-    }
+    int a,b,c;
+    cout<<"enter two numbers :";
+    cin>>a>>b;
+    if(b==0)
+    cout<<"Division by zero";
     else
     {
-        cout<<"even";
+        c=a/b;
+        cout<<c<<endl;;
     }
 
     return 0;
