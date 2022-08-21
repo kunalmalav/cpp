@@ -4,16 +4,22 @@ using namespace std;
 
 int main()
 {
-    int age;
-    cout<<"enter age :";
-    cin>>age;
-    if(age>=12 && age<=50)
+    int a,b,c;
+    cout<<"Enter three numbers :";
+    cin>>a>>b>>c;
+    if(a>b && a>c)
     {
-    cout<<"You are young";
+        cout<<a;
     }
     else
     {
-        cout<<"You are not young";
+        if(b>c)
+        {
+            cout<<b;
+        }
+        else{
+            cout<<c;
+        }
     }
 
     return 0;
