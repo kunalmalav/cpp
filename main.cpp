@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    int n,i;
-    cout<<"Enter the integer: ";
-    cin>>n;
-    for(int i=1;i<=10;i++)
-        cout<<n<<"*"<<i<<"="<<n*i<<endl;
+    int n=5;
+    for(int i=1;i<=n;i++)
+    {
+    cout<<i<<endl;
+    }
     return 0;
 }
