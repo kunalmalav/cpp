@@ -4,23 +4,10 @@ using namespace std;
 
 int main()
 {
-    int a,b,c;
-    cout<<"Enter three numbers :";
-    cin>>a>>b>>c;
-    if(a>b && a>c)
-    {
-        cout<<a;
-    }
-    else
-    {
-        if(b>c)
-        {
-            cout<<b;
-        }
-        else{
-            cout<<c;
-        }
-    }
-
+    int n,i;
+    cout<<"Enter the integer: ";
+    cin>>n;
+    for(int i=1;i<=10;i++)
+        cout<<n<<"*"<<i<<"="<<n*i<<endl;
     return 0;
 }
