@@ -4,10 +4,12 @@ using namespace std;
 
 int main()
 {
-    int n=5;
-    for(int i=1;i<=n;i++)
+    int A[5]={1,2,3,4,5};
+    int sum=0;
+    for(int i=0;i<5;i++)
     {
-    cout<<i<<endl;
+        sum=sum+A[i];
     }
+    cout<<"sum is: " <<sum;
     return 0;
 }
