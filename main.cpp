@@ -5,19 +5,18 @@ using namespace std;
 int main()
 {
     int A[10]={5,2,3,6,9,1,4,7,8,2};
+    int key;
 
-    int max;
+    cout<<"Enter key: ";
+    cin>>key;
 
-    max=A[0];
-
-    for(int i=1;i<10;i++)
-    {
-            if(A[i]>max)
-            {
-                max=A[i];
-            }
-
+    for(int i=0;i<10;i++) {
+        if (A[i] == key) {
+            cout << "Key found at " << i << endl;
+            return 0;
+        }
     }
-        cout<<max;
+
+    cout << "Element not found!" << endl;
     return 0;
 }
